@@ -4,8 +4,17 @@
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: azure;
 }
-
+#nav .navbar {
+  background-color: #926b0f;
+}
+#nav .poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: azure;
+}
 /* jumbotron */
 #nav .jumbotron {
   padding-top: 25%;
@@ -86,7 +95,7 @@
 }
 
 /* product */
-#product .col-md-4 {
+#product .col-md-8 {
   padding-top: 10%;
 }
 
@@ -94,13 +103,11 @@
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
-  color: azure;
 }
 #product .poppins-semibold {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
-  color: azure;
 }
 #product .poppins-regular {
   font-family: "Poppins", sans-serif;
@@ -117,4 +124,59 @@
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: italic;
+}
+
+/* blog */
+
+#blog {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+#blog .poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+#blog .poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+#blog .poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* contact */
+#contact .row {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+#contact .poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: azure;
+}
+#contact .poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: azure;
+}
+
+/* footer */
+footer .poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: azure;
+}
+footer .poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: azure;
 }
